@@ -3,6 +3,4 @@ ansible
 linux
 aws
 maven
-swarms
-tomcat
 
