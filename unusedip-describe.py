@@ -5,3 +5,5 @@ def lambda_handler(event, context):
     for i in ipresp['Addresses']:
         if 'InstanceId' in i:
             print('{} this is in use'.format(i['PublicIp']))
+        else:
+            print('{} this is not in use'.format(i['PublicIp']))
