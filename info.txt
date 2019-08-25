@@ -1,6 +1,8 @@
 docker
 ansible
 linux
+java
 aws
 maven
+tomcat
 
